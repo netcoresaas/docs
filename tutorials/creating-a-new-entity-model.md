@@ -43,5 +43,9 @@ If you get errors on this.services or this.loading, fix relative paths of '**/ap
 Example -&gt; '**../../../components...**' instead of '**@/components...**'
 {% endhint %}
 
-## 
+## Result
+
+You should get a table and a CRUD form for the model.
+
+![New expense](../.gitbook/assets/expense.gif)
 

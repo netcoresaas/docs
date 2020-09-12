@@ -1,4 +1,4 @@
-# Publish to heroku
+# Deploy to heroku
 
 ## Install Heroku CLI
 
@@ -31,7 +31,7 @@ heroku buildpacks:add heroku/nodejs
 heroku buildpacks:add jincod/dotnetcore
 ```
 
-### 3. Heroku environment variables
+### Heroku environment variables
 
 ```text
 heroku config:set ASPNETCORE_ENVIRONMENT=Production
@@ -41,7 +41,7 @@ You can change environment variables directly from the heroku app settings:
 
 ![](../../.gitbook/assets/screen-shot-2020-08-24-at-2.00.14.png)
 
-## 3. Publish
+## 3. Deploy
 
 You can directly push to the heroku repository:
 
@@ -62,7 +62,7 @@ git push origin master
 Open your app yourappname.herokuapp.com and ensure everything is working.
 
 {% hint style="warning" %}
-If you set your LIVE Stripe API Keys and LIVE products, keep in mind that you will be charged. If you want to test in the herokuapp change you appsettings.json, .env.production and default-pricing.ts to be the same as the development files \(except for database connection\)
+If you set your LIVE Stripe API Keys and LIVE products, keep in mind that you will be charged.
 {% endhint %}
 
 

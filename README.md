@@ -1,20 +1,20 @@
 ---
-description: Welcome!
+description: NetcoreSaas documentation.
 ---
 
-# Introduction
+# Welcome
 
-### Welcome!
+### Getting Started
 
-These are the docs for .NET Core + VueJS + Tailwind SaaS apps with NetcoreSaas codebase.
+[Start your project idea now](getting-started/getting-started/)[.](getting-started/getting-started/)
 
 ### Requirements
 
-* [VSCode](requirements/vscode.md) or Visual Studio
-* [.NET Core SDK](requirements/.net-core.md)
-* [Node.js](requirements/node.js.md)
+* [VSCode](other/installing/vscode.md) or Visual Studio
+* [.NET Core SDK](other/installing/.net-core.md)
+* [Node.js](other/installing/node.js.md)
 
-Follow [these steps](requirements/installing.md) if you're missing any of the above.
+Follow [these steps](other/installing/) if you're missing any of the above.
 
 ### Demo
 
@@ -22,11 +22,7 @@ Check out the demo here: [demo.netcoresaas.com](https://demo.netcoresaas.com).
 
 ### Getting Started
 
-{% page-ref page="getting-started/getting-started.md" %}
-
-{% page-ref page="getting-started/environment/" %}
-
-{% page-ref page="getting-started/debug/" %}
+{% page-ref page="getting-started/getting-started/" %}
 
 {% page-ref page="getting-started/deploy/" %}
 

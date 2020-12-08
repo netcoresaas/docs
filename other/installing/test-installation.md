@@ -2,7 +2,7 @@
 
 ### 1. Disable automatic database creation
 
-If you haven't set your connection settings, open the Data/SystemDbContext.cs and Data/TenantDbContext.cs files and comment the following line:
+If you haven't set your connection settings, open the Data/SystemDbContext.cs and Data/AppDbContext.cs files and comment the following line:
 
 ```csharp
 // Database.EnsureCreated();

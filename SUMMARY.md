@@ -12,11 +12,6 @@
   * [Deploy to heroku](getting-started/deploy/publish-to-heroku.md)
 * [Environment variables](getting-started/environment-variables.md)
 
-## Tutorials
-
-* [Creating a complete SaaS app](tutorials/creating-a-complete-saas-app.md)
-* [Creating a new Entity model](tutorials/creating-a-new-entity-model.md)
-
 ## Other
 
 * [Installing](other/installing/README.md)

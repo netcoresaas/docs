@@ -11,6 +11,10 @@
   * [Initialize git repository](getting-started/deploy/initialize-git.md)
   * [Deploy to heroku](getting-started/deploy/publish-to-heroku.md)
 * [Environment variables](getting-started/environment-variables.md)
+* [API](getting-started/api/README.md)
+  * [Controllers](getting-started/api/controllers.md)
+* [Testing](getting-started/testing/README.md)
+  * [Integration Tests](getting-started/testing/integration-tests.md)
 
 ## Other
 

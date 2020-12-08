@@ -12,15 +12,11 @@ At the root directory:
 dotnet restore
 ```
 
-## 2. Debug .NET Core + Client App
+## 2. Debug .NET + Client App
 
-Run the **`Debug SPA and API (Chrome)`** launch configuration:
+Start the app on Visual Studio with "PRODUCT\_NAME" launch configuration.
 
-![VSCode Launch configurations](../../.gitbook/assets/screen-shot-2020-08-24-at-0.52.24.png)
-
-You should be redirected to the login page:
-
-![Login page](../../.gitbook/assets/screen-shot-2020-08-24-at-1.02.54.png)
+![](../../.gitbook/assets/image.png)
 
 ## 3. Database generated
 
@@ -28,11 +24,11 @@ And if you connect to your Database Provider you should see the tables created:
 
 ![Database schema](../../.gitbook/assets/screen-shot-2020-08-24-at-1.03.51.png)
 
-{% hint style="info" %}
-## 4. Test it by registering
-{% endhint %}
+## 4. Register
 
+{% hint style="info" %}
 If you [already set your Stripe](../../other/integrations/stripe/creating-subscriptions.md) products, you can register:
+{% endhint %}
 
 ![Register page](../../.gitbook/assets/screen-shot-2020-08-24-at-1.19.36.png)
 
@@ -40,7 +36,7 @@ If you [already set your Stripe](../../other/integrations/stripe/creating-subscr
 
 You can click the red text or go to step 5...
 
-### 5. Email confirmation
+## 5. Email confirmation
 
 If you set Postmark correctly \(by creating the welcome template\) you should get an email:
 
@@ -50,35 +46,31 @@ By clicking the blue button you will be redirected to [http://localhost:8080/acc
 
 ![Verification page](../../.gitbook/assets/screen-shot-2020-08-24-at-1.27.31.png)
 
-### 6. Database records
+## 6. Database records
 
 Connect to your local database and confirm there are at least 1 record:
 
 ```sql
-select * from users;
-select * from tenants;
-select * from tenantusers;
+select * from "Users";
+select * from "Tenants";
+select * from "TenantUsers";
 ```
 
-### 7. Stripe customer
+## 7. Stripe customer
 
 Go to your Stripe dashboard and confirm the creation:
 
 ![Stripe customers](../../.gitbook/assets/screen-shot-2020-08-24-at-1.25.43.png)
 
-### 8. Your ready to start working on your SaaS core functionality
+## 8. Your ready to start working on your SaaS core functionality
 
-![](../../.gitbook/assets/screen-shot-2020-08-24-at-1.28.58.png)
+![](../../.gitbook/assets/vue.netcoresaas.com_product-7-.png)
 
-### 9. Optional: Test the Expenses page
+## 9. Optional: Test the Transactions page
 
-Add an expense:
-
-![New expense page](../../.gitbook/assets/screen-shot-2020-08-24-at-1.31.06.png)
-
-And confirm it:
+Add an expense and confirm it:
 
 ```sql
-SELECT * FROM expenses;
+SELECT * FROM "Transactions";
 ```
 
